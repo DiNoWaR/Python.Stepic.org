@@ -1,6 +1,7 @@
 # The sets module provides classes for constructing and manipulating unordered collections of unique elements
-fruits = {"apple", "banana", "cherry"}
-print(fruits)
+fruits_first = {"apple", "banana", "cherry"}
+engineers = set(['John', 'Jane', 'Jack', 'Janice'])
+
 
 # len(s)	 	                        number of elements in set s (cardinality)
 # x in s	 	                        test x for membership in s
