@@ -10,10 +10,6 @@ def append_zero(xs):
 get_sum(1, 3)
 get_sum(second=3, first=2)
 
-#
-array = []
-append_zero(array)
-
 
 def get_y(x):
     if x <= -2:
