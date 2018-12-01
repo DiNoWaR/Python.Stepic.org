@@ -1,10 +1,10 @@
-summa = 0
+sum = 0
 
 while True:
     number = int(input())
 
     if number == 0:
-        print(summa)
+        print(sum)
         break
     else:
-        summa += number
+        sum += number
