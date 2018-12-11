@@ -36,8 +36,10 @@ for index, item in enumerate(input_string):
             result_array.append(create_number_from_array(temp_array) * letter)
             temp_array.clear()
 
+
 for item in result_array:
     result_string += item
+
 
 ouf = open('result.txt', 'w')
 ouf.write(result_string + '\n')
