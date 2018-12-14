@@ -1,5 +1,3 @@
-# first, second = (int(i) for i in input().split())
-
 first = int(input())
 second = int(input())
 
